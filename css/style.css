@@ -69,6 +69,7 @@ header {
 }
 .nav_menu ul>i{
 color: white;
+display: none;
 }
 .search span{
     color: white;
