@@ -424,12 +424,8 @@ background-color: white;
     width: 300px;
 
 }
-.image1:hover h2,p{
-    display: block;
-}
-.image1 h2,p{
-    display: none;
-}
+
+
 .image2 img{
     width: 300px;
     height: 300px;
