@@ -67,7 +67,7 @@ header {
 
 
 }
-.nav_menu ul>i{
+.nav_menu i{
 color: white;
 display: none;
 }
@@ -890,7 +890,7 @@ color: black;
 .search span{
     font-size: 20px;
 }
-.nav_menu ul>i{
+.nav_menu i{
     display: block;
 }
 
