@@ -881,9 +881,13 @@ color: black;
 .search{
     position: absolute;
     margin-left:250px;
-    font-size: 20px;
-    
-    
+    font-size: 20px;  
+}
+.search input{
+    width: 100px;
+}
+.search span{
+    font-size: 15px;
 }
 
 
