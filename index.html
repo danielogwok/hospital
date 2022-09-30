@@ -8,8 +8,10 @@
     <title>Hospital website</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet"
+    <link rel="stylesheet" href="./css/media.css">
+     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,14 +21,16 @@
         
         <nav>
             <div class="nav_brand">
-                <h2><i class="las la-hospital"></i> <span>Hospital</span> </h2>
+                <h2><i class="las la-hospital-symbol"></i> <span>Hospital</span> </h2>
+                
 
 
             </div>
-            <div class="nav_menu">
-                <i class="las la-times"></i>
+            <div class="nav_links" id="nav_links">
+                
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
                 <ul>
-               
+                
                 <li><a href="#home">Home</a></li>
                 <li> <a href="#about">About</a></li>
                 <li><a href="#service">Services</a></li>
@@ -35,19 +39,18 @@
                 <li><a href="#blog">Blog</a></li>
                 <li> <a href="#contact">Contact</a></li>
                 
-                
             </ul>
-            <i class="las la-bars"></i>
+            
             </div>
+            
             <div class="search">
             
                 <span><i class="las la-search"></i></span>
                 <input type="text" placeholder="Search here">
-
-
-
-
             </div>
+            
+            <i class="fa fa-bars" id="far" onclick="showMenu()"></i>
+           
 
         </nav>
         
@@ -73,6 +76,7 @@
                 <img src="img/pngwing.com.png" alt="">
             </div>
         </div>
+        
     </section>
     <section id="about">
         <h2>About us</h2>
@@ -175,6 +179,7 @@
             style="background-image:linear-gradient(to bottom,rgba(0,0,255,0.7),rgba(0,0,255,0.7)),url(img/pngwing.com\ \(13\).png); background-repeat:no-repeat; background-size:cover">
 
         </div>
+        
         <div class="docpara">
             <p> When You Are Young And Healthy, It
                 Never Occurs to You In A Single
@@ -191,6 +196,7 @@
            
             <!-- <img src="img/pngwing.com (15).png" alt=""> -->
         </div>
+    
         <!-- <div class="screen">
              <img src="img/Screenshot 2022-09-21 124212.png" alt=""> 
         </div> -->
@@ -199,37 +205,35 @@
             <div class="many">
                 <div class="image1">
                     <img src="img/jane.jpg" alt="">
-                    
-                        
-                    
+                    <div class="dan">
+                        <h2>Jane Bang</h2>
+                        <p>Nurse</p>
+                    </div> 
                 </div>
 
                 <div class="image2">
                     <img src="img/dan.jpg" alt="">
-                    
+                    <div class="man">
+                        <h2>Dan Don</h2>
+                        <p>Lab Tech</p>
+                    </div>
                 </div>
 
                 <div class="image3">
                     <img src="img/doctor.jpg" alt="">
-                    
+                    <div class="fan">
+                        <h2>Sam Doe</h2>
+                        <p>Hospital Admin</p>
+                    </div>
                 </div>
 
             </div>
-         <div class="wan">
-                <div class="dan">
-                    <h2>Jane Bang</h2>
-                    <p>Nurse</p>
-                </div>
-                <div class="man">
-                    <h2>Dan Don</h2>
-                    <p>Lab Tech</p>
-                </div>
-                <div class="fan">
-                    <h2>Sam Doe</h2>
-                    <p>Hospital Admin</p>
-                </div>
+             <!-- <div class="wan">
+               
+                
+               
             </div> 
-        </div>
+        </div> -->
     </section>
     <section id="depart">
         <div class="heads">
@@ -240,6 +244,9 @@
 
         <div class="items">
             <div class="item1">
+                <div class="m1">
+                    <img src="img/pngwing.com (20).png" alt="">
+                </div>
                 <h2>Regular Case</h2>
                 <p>Lorem ipsum dolor sit arnet consectetur
                     perspiciatis adpiscing elit perspiciatis possimous dolorbus
@@ -248,6 +255,9 @@
                 <button type="button">Read More</button>
             </div>
             <div class="item2">
+                <div class="m2">
+                    <img src="img/pngwing.com (21).png" alt="">
+                </div>
                 <h2>Serious Case</h2>
                 <p>Lorem ipsum dolor sit arnet consectetur
                     perspiciatis adpiscing elit perspiciatis possimous dolorbus
@@ -256,6 +266,9 @@
                 <button type="button">Read More</button>
             </div>
             <div class="item3">
+                <div class="m3">
+                    <img src="img/pngwing.com (19).png" alt="">
+                </div>
                 <h2>Emergency Case</h2>
                 <p>Lorem ipsum dolor sit arnet consectetur
                     perspiciatis adpiscing elit perspiciatis possimous dolorbus
@@ -266,15 +279,9 @@
         </div>
 
         <div class="allimg">
-            <div class="m1">
-                <img src="img/pngwing.com (20).png" alt="">
-            </div>
-            <div class="m2">
-                <img src="img/pngwing.com (21).png" alt="">
-            </div>
-            <div class="m3">
-                <img src="img/pngwing.com (19).png" alt="">
-            </div>
+
+            
+            
         </div>
     </section>
     <section id="blog">
@@ -392,7 +399,15 @@
         </div>
         <hr style="width:1150px ;">
     </section>
-    <script src="javascript/script.js"></script>
+    <script>
+        var nav_links =document.getElementById("nav_links");
+        function showMenu(){
+          nav_links.style.right = "0";
+        }
+        function hideMenu(){
+          nav_links.style.right = "-200px";
+        }
+      </script>
 </body>
 
-</html>
+</html> 

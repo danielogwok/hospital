@@ -10,17 +10,14 @@
 
 header {
     position: fixed;
-    top: auto;
+    top: 0px;
     left: 0px;
     right: 0px;
     height: 80px;
     display: flex;
-    background-color:black
+    background-color:goldenrod
 
 }
-
-
-
 
 .nav_brand {
     font-size: 25px;
@@ -37,43 +34,49 @@ header {
     color: red;
 }
 
-.nav_menu {
-    margin-left: 350px;
+.nav_links {
+    margin-left: 300px;
     margin-top: -30px;
 }
  
-.nav_menu ul li {
+.nav_links ul li {
    list-style: none;
    text-align: right;
    display: inline-block;
 }
-.nav_menu a{
+.nav_links a{
     text-decoration: none;
     padding-left: 20px;
     font-size: 20px;
+    color: white;
 }
 
-.nav_menu a:hover {
+.nav_links a:hover {
     box-shadow: 50px;
     color: blue;
-    text-size-adjust: 25px;
+  
 
 
 }
+/* .nav_menu i{
+    float: right;
+    color: white;
+    display: none;
+    
+} */
 
 .search {
-    margin-left: 1000px;
+    margin-left: 950px;
     margin-top: -20px;
 
+}
 
-}
-.nav_menu i{
-color: white;
-display: none;
-}
-.search span{
+
+
+.search span >i{
     color: white;
-    font-size: 24px;
+    font-size: 20px;
+    
 }
 
 .search input {
@@ -85,34 +88,37 @@ display: none;
 
 #home {
     background-color: blue;
-    width: auto;
+    
     height: 700px;
+    margin-top: -95px;
 
 
 }
 
 .hero-image {
-    float: right;
-    margin-top: 100px;
+
 }
 
 .para {
-    margin-top: 100px;
+    margin-top: 180px;
     color: white;
     font-size: 20px;
     width: 400px;
-    margin-right: 780px;
     height: 300px;
+    margin-left: 60px;
+
 
 }
 
 .para h2 {
     color: white;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .para h3 {
     margin-bottom: 10px;
+
 }
 
 .para p {
@@ -152,6 +158,7 @@ display: none;
 .me {
     display: flex;
     margin-top: -40px;
+    margin-left: 40px;
 
 }
 
@@ -159,7 +166,7 @@ display: none;
     width: 400px;
     height: 500px;
     margin-left: 700px;
-    margin-top: -350px;
+    margin-top: -300px;
 }
 
 /* section abouut */
@@ -176,7 +183,7 @@ display: none;
 }
 
 .us {
-    border-radius: 10px;
+    
     width: 600px;
     height: 90px;
 
@@ -212,7 +219,6 @@ display: none;
     margin-left: 30px;
     margin-top: 30px;
 }
-
 
 .img {
     float: right;
@@ -402,13 +408,13 @@ background-color: white;
     margin-top: -210px;
     margin-left: 180px;
 }
-.screen img{
+/* .screen img{
     width: 350px;
     height: 100px;
     margin-top: -140px;
     margin-left: 250px;
 
-}
+} */
 .panel{
     margin-top: 200px;
 }
@@ -425,13 +431,24 @@ background-color: white;
     width: 300px;
 
 }
+.image1 h2{
+    margin-left: 160px;
+}
 
-
+.image1 p{
+    margin-left: 300px;
+}
 .image2 img{
     width: 300px;
     height: 300px;
     margin-left: 70px;
     
+}
+.image2 h2{
+ margin-left: -60px;
+}
+.image2 p{
+    margin-left: -60px;
 }
 .image3 img{
     width: 300px;
@@ -441,6 +458,7 @@ background-color: white;
 
 .dan{
    margin-top: 40px;
+   
  
     
 }
@@ -515,7 +533,7 @@ background-color: white;
  }
  .item1 button{
     margin-left: 60px;
-    margin-top: 70px;
+    margin-top: 40px;
     border-radius: 10px;
     background-color:white;
     padding-left: 10px;
@@ -540,7 +558,7 @@ background-color: white;
  }
  .item2 button{
     margin-left: 60px;
-    margin-top: 70px;
+    margin-top: 40px;
     border-radius: 10px;
     background-color:white;
     padding-left: 10px;
@@ -565,7 +583,7 @@ background-color: white;
  }
  .item3 button{
     margin-left: 60px;
-    margin-top: 70px;
+    margin-top: 40px;
     border-radius: 10px;
     background-color: white;
     padding-left: 10px;
@@ -578,25 +596,27 @@ background-color: white;
     margin-left: 120px;
     margin-top: 150px;
  }
- .allimg{
+ /* .allimg{
     display: flex;
     margin-top: -450px;
     margin-left: 100px;
     
- }
+ } */
  .m1 img{
     height: 100px;
     width: 100px;
     margin-left: 80px;
     border: 1px solid blueviolet;
     border-radius: 10px;
+    margin-top: -50px;
  }
  .m2 img{
     height: 100px;
     width: 100px;
-    margin-left: 340px;
+    margin-left: 100px;
     border: 1px solid blueviolet;
     border-radius: 10px;
+    margin-top: -50px;
  }
  .m3 img{
     height: 100px;
@@ -604,6 +624,8 @@ background-color: white;
     margin-left: 340px;
     border: 1px solid blueviolet;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-top: -50px;
  }
  #blog{
 margin-top: -30px;
@@ -841,4 +863,15 @@ hr{
     margin-left: 60px;
     margin-top: 50px;
 }
+#far{
+    margin-left: 450px;
+}
+ nav .fa{
+
+margin-left: 150px;
+display: none;
+    
+
+
+ }
 

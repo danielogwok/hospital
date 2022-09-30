@@ -1,0 +1,596 @@
+@media(max-width:600px) {
+    body{
+       font: 30px sans-serif;
+       
+    }
+header{
+   background-color: grey;
+   
+}
+.nav_brand{ 
+   margin-top: 10px;
+   font-size: 20px;
+}
+.nav_links{
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 200px;
+   height: 100vh;
+   background-color: rgb(233, 165, 165);
+   margin-top: 80px;
+   right: -200px;
+   transition: 1s;
+   
+     
+   
+   
+}
+.nav_links ul li{
+   display: block; 
+   text-align: left; 
+   margin-top: 15px;
+}
+.nav_links a{
+color: black;
+
+}
+.nav_links ul{
+   padding-top: 25px;
+}
+.search{
+   position: absolute;
+   margin-left:210px;
+   font-size: 20px;
+   
+   
+   
+}
+.search input{
+   width: 200px;
+}
+.search span{
+   font-size: 20px;
+}
+nav .fa{
+   display: block;
+   font-size: 20px;
+   cursor: pointer;  
+}
+#home{
+    height: 900px;
+    
+}
+.para{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.imge img{
+    width: 300px;
+    height: 400px;
+    margin-left:100px;
+    margin-top: 150px;
+
+}
+.us {
+    
+    width: 400px;
+    height: 180px;
+    margin-left: 30px;
+}
+.mission {
+    background-color: transparent;
+    width: 400px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.vision {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.img {
+    float: right;
+    margin-top: -50px;
+    margin-right: 100px;
+
+}
+
+.img img {
+    height: 500px;
+    width: 400px;
+}
+#about{
+    height: 1400px;
+}
+#service{
+    height: 1800px;
+}
+.quot{
+    font-size: 20px;
+    height: 30px;
+    width: 400px;
+    margin-top: -200px;
+    margin-left: 100px;
+    color:white;
+}
+.all{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 800px;
+}
+.heart{
+    width: 300px;
+    height: 200px;
+}
+.medical{
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: -10px; 
+}
+.help{
+    width: 300px;
+    height: 200px; 
+    margin-top: 70px;
+    margin-left: -10px; 
+}
+.aid{
+    width: 300px;
+    height: 200px; 
+    margin-top: 70px;
+    margin-left: -10px; 
+}
+#doctor{
+height: 2200px;
+}
+
+.many{
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+.image1{
+    margin-left: -80px;
+}
+.image2{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.image3{
+margin-top: 30px;
+margin-left: 40px;
+}
+.dan h2{
+     font-size: 15px;
+     margin-left: 10px; 
+}
+.man h2{
+    font-size: 15px;
+    margin-left: 120px; 
+}
+.fan h2{
+    font-size: 15px; 
+    margin-left:150px;
+}
+.dan{
+    margin-top: 10px;
+}
+.man{
+    margin-top: 15px;
+    margin-left: -150px;
+}
+.fan{
+    margin-top: 15px;
+    margin-left: -200px;    
+}
+.mage{
+    width: 300px;
+    height: 100px;
+    margin-left: -380px;
+}
+.dochead{
+    background-color: blue;
+    height: 800px;
+    
+}
+.docpara{
+    width: 300px;
+    height: 70px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: -500px;
+    color: white;
+}
+.whole{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 70px;
+    
+}
+.sign1{
+    margin-left: 5px;
+}
+#depart{
+    background-color: blue;
+    height: 2000px;
+ }
+ .heads{
+  
+    margin-top: 40px;
+    text-align: center;
+    
+   }
+   .heads h2{
+     
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+   }
+   .heads p{
+     margin-top: 20px; 
+     font-size: 20px;
+   }
+   .item1{
+      width: 400px;
+      height: 400px;
+      background-color: white;
+      margin-left: -60px;
+   }
+   
+   .item1 h2{
+      margin-left: 80px;
+      margin-top: 80px;
+      font-size: 20px;
+   }
+   .item1 p{
+      margin-left: 30px;
+      margin-top: 50px;
+      font-size: 15px;
+   }
+   .item1 button{
+      margin-left: 60px;
+      margin-top: 40px;
+      border-radius: 10px;
+      background-color:white;
+      padding-left: 10px;
+      width: 150px;
+      height: 30px;
+      font-size: 20px;
+      
+   }
+   .item2{
+      width: 400px;
+      height: 400px;
+      margin-left: -60px;
+      background-color: white;
+      margin-top: 100px;
+   }
+   .item2 h2{
+      margin-left: 60px;
+      margin-top: 80px;
+      font-size: 20px;
+   }
+   .item2 p{
+      margin-left: 30px;
+      margin-top: 50px;
+      font-size: 15px;
+   }
+   .item2 button{
+      margin-left: 60px;
+      margin-top: 40px;
+      border-radius: 10px;
+      background-color:white;
+      padding-left: 10px;
+      width: 150px;
+      height: 30px;
+      font-size: 20px;
+   }
+   .item3{
+      width: 400px;
+      height: 400px;
+      margin-left: -60px;
+      background-color: white;
+      margin-top: 80px;
+      
+   }
+   .item3 h2{
+      margin-left: 60px;
+      margin-top: 80px;
+      font-size: 20px;
+   }
+   .item3 p{
+      margin-left: 30px;
+      margin-top: 50px;
+      font-size: 15px;
+   }
+   .item3 button{
+      margin-left: 60px;
+      margin-top: 40px;
+      border-radius: 10px;
+      background-color: white;
+      padding-left: 10px;
+      width: 150px;
+      height: 30px;
+      font-size: 20px;
+   }
+ .items{
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 150px;
+ }
+ #blog{
+    margin-top: -30px;
+    height: 1900px;
+     }
+     #blog h2{
+        padding-top: 80px;
+    font-size: 20px;
+        text-align: center;
+     }
+     .post{
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 80px;
+     }
+     .post1{
+     width: 350px;
+     background-color: white;
+     }
+     .post1 img{
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 10px;
+    
+     }
+     .post2{
+     width: 350px;
+     margin-left: -5px;
+     background-color: white;
+     margin-top: 50px;
+    }
+    .post2 img{
+       width: 300px;
+       height: 200px;
+       margin-left: 30px;
+       margin-top: 10px;
+    
+    }
+    .post3{
+    width: 350px;
+    margin-left: -5px;
+    background-color: white;
+    margin-top: 50px;
+    
+    }
+    .post3 img{
+       width: 300px;
+       height: 200px;
+       margin-left: 30px;
+       margin-top: 10px;
+    
+    }
+    p1{
+        margin-top: 20px;
+        font-size: 15px;
+        color: black;
+        margin-left: 10px;
+    }
+    .p2{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .p3{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .p4{
+        margin-top: 30px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .p5{
+        margin-left: 230px;
+        margin-top: -30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    #contact{
+        margin-top: 80px;
+        height: 1200px;
+    
+    }
+    iframe{
+        margin-left: 30px;
+        width: 400px;
+    }
+    
+    .form1{
+        
+        margin-right: 40px;
+        background-color: blue;
+        height: 520px;
+        margin-top: 50px;
+        width: 400px;
+    
+        
+        
+    }
+    .form1 h2{
+        margin-top: 50px;
+        color: white;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    .form1 p{
+        margin-left: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .con{
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    
+    .form1 form>input{
+        height: 40px;
+        width: 300px;
+        padding-left: 10px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .form1 form>textarea{
+        padding-left: 10px;
+        font-size: 15px;
+        margin-left: 20px;
+        
+    
+    }
+    .form1 button{
+       border-radius: 20px; 
+       width: 200px;
+       height: 40px;
+       margin-left: 80px;
+       color: white;
+       font-size: 15px;
+       background-color: blueviolet;
+         
+    }
+    #content{
+        margin-top: -50px;
+        background-color: black;
+        color: white;
+        height: 1500px;
+    }
+    .last1{
+       width: 250px;
+       margin-left: 100px;
+       margin-top: 80px;
+    }
+    .last1 h2{
+        font-size: 25px;
+    }
+    .last1 h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .last1 p{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .last2{
+    width: 250px;
+    margin-left: 100px;
+       margin-top: 80px;
+    }
+    .last2 h2{
+        font-size: 25px;
+    }
+    .last2 .tag{
+       margin-top: 20px; 
+    }
+    .tag .tag1{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+    }
+    .tag .tag2{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+    }
+    .tag .tag3{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 150px;
+        margin-top: -60px;
+    }
+    .tag .tag4{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+    }
+    .tag .tag5{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 150px;
+        margin-top: -65px;
+    }
+    .tag .tag6{
+        background-color: gray;
+        width: 120px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    .last3{
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 100px;
+    }
+    .last3 h2{
+        font-size: 25px;
+    }
+    .last3 p{
+        margin-top: 20px;
+
+        
+    }
+    .last3 p>a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .last4{
+        width: 300px;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .last4 h2{
+        font-size: 25px;
+    }
+    .make1{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .make2{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .make3{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .alllast{
+flex-direction: column;
+    }
+    hr{
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 300px;
+    }
+
+    
+}
